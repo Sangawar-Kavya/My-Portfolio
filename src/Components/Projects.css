@@ -120,6 +120,9 @@
         font-size: 20px;
     }
 
+    .projects-title h1 {
+        font-size: 40px;}
+
     .projects-container {
         grid-template-columns: 1fr;
         align-items: center;

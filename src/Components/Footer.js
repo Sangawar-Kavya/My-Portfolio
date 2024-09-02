@@ -8,6 +8,10 @@ const Footer = () => {
             <div className='footer-top'>
                 <div className='footer-top-left'>
                     <img src={logo} alt='' />
+                    <p>Kavya Sangawar-Crafting digital experiences with precision and passion.
+                        <br />
+                        Thank you for stopping by...!
+                    </p>
                 </div>
                 <div className='footer-top-right'>
                     <div className='footer-email-input'>
@@ -19,7 +23,7 @@ const Footer = () => {
                     </div>
                 </div>
             </div>
-            <hr/>
+            <hr />
             <div className='footer-bottom'>
                 <p className='footer-bottom-left'>
                     @2024 Kavya Sangawar.All rights reserved
