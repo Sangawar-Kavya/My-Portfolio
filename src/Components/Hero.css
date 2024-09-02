@@ -1,0 +1,161 @@
+.hero {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 35px;
+}
+
+.hero img {
+    margin-top: 100px;
+    border-radius: 50%;
+}
+
+.hero h1 {
+    text-align: center;
+    width: 90%;
+    font-size: 60px;
+}
+
+.hero h1 span {
+    background: linear-gradient(#DA7C25 10%, #B923E1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.hero p {
+    width: 90%;
+    text-align: center;
+    font-size: 24px;
+    line-height: 40px;
+}
+
+.hero-action {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    font-size: 24px;
+    margin-bottom: 50px;
+}
+
+.hero-accounts {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid white;
+    gap: 15px;
+    padding: 16px;
+    border-radius: 60px;
+    cursor: pointer;
+}
+
+.hero-accounts:hover {
+    border: 2px solid #B923E1;
+}
+
+.hero-accounts img {
+    width: 40px;
+    height: 40px;
+    margin: 0 10px;
+}
+
+.hero-accounts img:hover {
+    border: 2px solid #B923E1;
+}
+
+.hero-connect {
+    padding: 25px 45px;
+    border-radius: 50px;
+    background: linear-gradient(264deg, #DA7C25 -5.09%, #B923E1 106.28%);
+    cursor: pointer;
+}
+
+.hero-resume {
+    padding: 25px 75px;
+    border-radius: 50px;
+    border: 2px solid white;
+    cursor: pointer;
+}
+
+.hero-connect:hover {
+    border: 2px solid white;
+}
+
+.hero-resume:hover {
+    border-color: #B923E1;
+}
+
+@media(max-width:992px) {
+    .profileIMG {
+        margin-top: 120px;
+        width: 260px;
+    }
+
+    .hero h1 {
+        margin-top: 50px;
+        width: 90%;
+        font-size: 50px;
+    }
+
+    .hero p {
+        width: 85%;
+        font-size: 18px;
+        line-height: 32px;
+        margin: 10px 0px;
+    }
+
+    .hero-action {
+        gap: 16px;
+        font-size: 18px;
+        margin-bottom: 50px;
+    }
+
+    .hero-accounts {
+        gap: 10px;
+        padding: 6px;
+    }
+
+    .hero-connect {
+        padding: 20px 30px;
+        border-radius: 40px;
+    }
+
+    .hero-resume {
+        padding: 20px 50px;
+        border-radius: 40px;
+    }
+}
+
+@media(max-width:786px) {
+    .hero h1 {
+        margin-top: 40px;
+        font-size: 35px;
+    }
+
+    .hero-accounts {
+        gap: 5px;
+    }
+
+    .hero-accounts img {
+        width: 30px;
+        height: 30px;
+        margin: 0 8px;
+    }
+
+    .hero-resume {
+        padding: 10px 25px;
+    }
+
+    .hero-connect {
+        padding: 10px 15px;
+    }
+}
+@media(max-width:500px) {
+    .hero-resume {
+        padding: 8px 20px;
+    }
+
+    .hero-connect {
+        padding: 10px 10px;
+    }
+}
