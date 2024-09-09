@@ -28,7 +28,6 @@ const Hero = () => {
                         Connect with me
                     </Link>
                 </div>
-                <div className='hero-resume'>My resume</div>
             </div>
         </div>
     )

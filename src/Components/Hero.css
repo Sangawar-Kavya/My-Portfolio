@@ -70,19 +70,8 @@
     cursor: pointer;
 }
 
-.hero-resume {
-    padding: 25px 75px;
-    border-radius: 50px;
-    border: 2px solid white;
-    cursor: pointer;
-}
-
 .hero-connect:hover {
     border: 2px solid white;
-}
-
-.hero-resume:hover {
-    border-color: #B923E1;
 }
 
 @media(max-width:992px) {
@@ -119,11 +108,6 @@
         padding: 20px 30px;
         border-radius: 40px;
     }
-
-    .hero-resume {
-        padding: 20px 50px;
-        border-radius: 40px;
-    }
 }
 
 @media(max-width:786px) {
@@ -142,18 +126,11 @@
         margin: 0 8px;
     }
 
-    .hero-resume {
-        padding: 10px 25px;
-    }
-
     .hero-connect {
         padding: 10px 15px;
     }
 }
 @media(max-width:500px) {
-    .hero-resume {
-        padding: 8px 20px;
-    }
 
     .hero-connect {
         padding: 10px 10px;
