@@ -7,7 +7,7 @@ import git_icon from '../assets/github.svg'
 const Hero = () => {
     return (
         <div className='hero'>
-            <img src={profile_img} alt=''  className='profileIMG'/>
+            <img src={profile_img} alt='' className='profileIMG' />
             <h1> <span>I'm Kavya Sangawar</span>, frontend developer based in India.</h1>
             <p>Recent 2024 Graduate in Computer Science Engineering with a strong passion for web development.
                 Proficient in HTML, CSS, and JavaScript.
@@ -27,6 +27,11 @@ const Hero = () => {
                     <Link to='contact' smooth={true} duration={500} >
                         Connect with me
                     </Link>
+                </div>
+                <div className="hero-resume">
+                    <a href="https://drive.google.com/file/d/1fVd3CWWC2XUwkg3_BYudG48wghqOfqQx/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+                        My Resume
+                    </a>
                 </div>
             </div>
         </div>
